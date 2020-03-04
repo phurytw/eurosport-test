@@ -1,0 +1,73 @@
+.PlayerInfo {
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.PlayerInfo > .picture-container {
+    position: relative;
+}
+
+.PlayerInfo > .picture-container > .picture {
+    border: 2px solid white;
+    margin: 0 20px;
+}
+
+.PlayerInfo > .picture-container > .country {
+    position: absolute;
+    top: 124px;
+    left: 22px;
+    max-width: 30%;
+}
+
+.PlayerInfo > .picture-container > .shortname {
+    position: absolute;
+    top: 132px;
+    right: 22px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.PlayerInfo > .picture-container > .rank {
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.PlayerInfo > .info {
+    text-align: left;
+}
+
+.PlayerInfo > .info > .lastname {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 0.6em;
+    text-transform: uppercase;
+}
+
+.PlayerInfo > .info > .points {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.PlayerInfo > .info > .wins-losses {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.PlayerInfo > .info > .other {
+    font-size: 0.8em;
+}
+
+.PlayerInfo > .info > .last {
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px white;
+    background: linear-gradient(black, gray);
+}
+
+.PlayerInfo > .info > .last td {
+    padding: 5px
+}
